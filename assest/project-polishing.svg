@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Wood and stone polishing</title>
+  <desc id="desc">A premium polished surface reflecting light after restoration.</desc>
+  <defs><linearGradient id="wood" x1="0" x2="1"><stop stop-color="#815b3d"/><stop offset=".45" stop-color="#c69661"/><stop offset="1" stop-color="#6e482e"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="#f7fbff"/>
+  <path d="M0 260 H1200 V760 H0 Z" fill="url(#wood)"/>
+  <path d="M0 344 H1200 M0 454 H1200 M0 564 H1200 M0 674 H1200" stroke="#4b2f1e" stroke-width="10" opacity=".32"/>
+  <path d="M84 300 C260 250 412 334 590 294 C760 256 920 296 1116 250" fill="none" stroke="#fff7e8" stroke-width="12" opacity=".42"/>
+  <path d="M102 420 C294 372 438 450 634 410 C788 378 950 410 1088 370" fill="none" stroke="#fff7e8" stroke-width="12" opacity=".35"/>
+  <ellipse cx="786" cy="452" rx="300" ry="92" fill="#ffffff" opacity=".22"/>
+  <path d="M210 150 H990 V256 H210 Z" fill="#071229"/>
+  <path d="M260 204 H568" stroke="#45e3d1" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="914" cy="204" r="28" fill="#9ef76b"/>
+</svg>

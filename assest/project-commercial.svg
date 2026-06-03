@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial repaint project</title>
+  <desc id="desc">A premium commercial facade with crisp exterior painting and brand-ready finish.</desc>
+  <defs><linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#8deaff"/><stop offset="1" stop-color="#071229"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="#f7fbff"/>
+  <path d="M0 574 H1200 V760 H0 Z" fill="#cdd7d9"/>
+  <path d="M132 126 H1048 V584 H132 Z" fill="#f1f5f4"/>
+  <path d="M132 126 H1048 V206 H132 Z" fill="#071229"/>
+  <path d="M190 252 H426 V536 H190 Z M486 252 H722 V536 H486 Z M782 252 H990 V536 H782 Z" fill="url(#glass)"/>
+  <path d="M132 206 H1048 V232 H132 Z" fill="#28a9ff"/>
+  <path d="M132 584 H1048 V626 H132 Z" fill="#45e3d1"/>
+  <path d="M212 164 H556" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="936" cy="166" r="28" fill="#9ef76b"/>
+</svg>
