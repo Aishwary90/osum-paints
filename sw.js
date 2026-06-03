@@ -1,4 +1,4 @@
-const CACHE_NAME = "osum-paints-cache-v2";
+const CACHE_NAME = "osum-paints-cache-v9";
 const ASSETS_TO_CACHE = [
   "./",
   "./index.html",
