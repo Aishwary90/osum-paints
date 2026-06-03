@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Before interior painting</title>
+  <desc id="desc">An unfinished living room wall before paint correction and finishing.</desc>
+  <rect width="1200" height="760" fill="#d9d1c5"/>
+  <path d="M0 0 H1200 V560 H0 Z" fill="#d8d0c3"/>
+  <path d="M90 112 H478 V558 H90 Z" fill="#cec4b5"/>
+  <path d="M526 98 H1088 V558 H526 Z" fill="#c6bbad"/>
+  <path d="M620 156 H1010 V500 H620 Z" fill="#b5aa9d"/>
+  <path d="M120 232 C218 205 320 260 460 228" fill="none" stroke="#a89887" stroke-width="15" opacity=".55"/>
+  <path d="M650 270 C754 224 852 312 985 254" fill="none" stroke="#998877" stroke-width="16" opacity=".55"/>
+  <path d="M0 560 H1200 V760 H0 Z" fill="#bba98f"/>
+  <path d="M165 500 H735 Q785 500 802 550 L844 674 H120 Q140 552 165 500 Z" fill="#72665c"/>
+  <path d="M218 464 H700 Q740 464 754 500 H165 Q178 464 218 464 Z" fill="#8c7f72"/>
+</svg>

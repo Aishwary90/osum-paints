@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Texture finish wall</title>
+  <desc id="desc">A sophisticated texture finish wall with layered surface detail.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7faf8"/><stop offset="1" stop-color="#cbd6d1"/></linearGradient>
+    <pattern id="p" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M0 40 C28 12 54 70 80 36" fill="none" stroke="#071229" stroke-width="5" opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#base)"/>
+  <rect width="1200" height="760" fill="url(#p)"/>
+  <path d="M128 132 H1072 V628 H128 Z" fill="none" stroke="#ffffff" stroke-width="18" opacity=".72"/>
+  <path d="M230 220 H970 V540 H230 Z" fill="#071229" opacity=".07"/>
+  <path d="M280 278 H904" stroke="#28a9ff" stroke-width="24" stroke-linecap="round"/>
+  <path d="M280 382 H792" stroke="#45e3d1" stroke-width="24" stroke-linecap="round"/>
+  <path d="M280 486 H666" stroke="#9ef76b" stroke-width="24" stroke-linecap="round"/>
+</svg>

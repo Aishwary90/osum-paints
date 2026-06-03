@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Premium painted Jaipur residence</title>
+  <desc id="desc">A modern home exterior with refined paint finishes and landscaped frontage.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c8f8ff"/>
+      <stop offset=".55" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#e6fff0"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" x2="1">
+      <stop offset="0" stop-color="#f9fbff"/>
+      <stop offset=".55" stop-color="#eaf2f6"/>
+      <stop offset="1" stop-color="#dbe8ee"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#56dfff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#071229" stop-opacity=".92"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#071229" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 760 C240 700 385 734 572 700 C813 656 969 722 1218 652 C1372 608 1510 610 1600 640 L1600 1000 L0 1000 Z" fill="#dff9e2"/>
+  <path d="M0 806 C270 760 474 802 710 760 C1030 704 1248 802 1600 710 L1600 1000 L0 1000 Z" fill="#b9edc6"/>
+  <g filter="url(#shadow)">
+    <path d="M261 650 L261 390 L522 226 L845 390 L845 650 Z" fill="url(#wall)"/>
+    <path d="M845 650 L845 390 L1155 292 L1372 390 L1372 650 Z" fill="#f7f9fb"/>
+    <path d="M522 226 L845 390 L1155 292 L806 132 Z" fill="#0d1a38"/>
+    <path d="M218 406 L522 202 L868 378 L844 416 L521 254 L241 436 Z" fill="#28a9ff"/>
+    <path d="M805 132 L1182 270 L1397 372 L1375 412 L1153 320 L845 420 Z" fill="#45e3d1"/>
+    <rect x="338" y="430" width="155" height="220" rx="8" fill="url(#glass)"/>
+    <rect x="568" y="430" width="185" height="220" rx="8" fill="url(#glass)"/>
+    <rect x="936" y="426" width="175" height="224" rx="8" fill="url(#glass)"/>
+    <rect x="1168" y="446" width="120" height="204" rx="8" fill="url(#glass)"/>
+    <rect x="246" y="646" width="1158" height="42" rx="14" fill="#071229"/>
+    <rect x="298" y="678" width="1030" height="26" rx="13" fill="#28a9ff"/>
+  </g>
+  <g opacity=".88">
+    <circle cx="129" cy="690" r="58" fill="#9ef76b"/>
+    <circle cx="1448" cy="695" r="72" fill="#45e3d1"/>
+    <path d="M98 824 C191 766 280 766 350 822" fill="none" stroke="#071229" stroke-width="20" stroke-linecap="round" opacity=".16"/>
+    <path d="M1200 824 C1293 766 1382 766 1452 822" fill="none" stroke="#071229" stroke-width="20" stroke-linecap="round" opacity=".16"/>
+  </g>
+</svg>

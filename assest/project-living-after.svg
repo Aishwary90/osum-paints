@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">After interior painting</title>
+  <desc id="desc">A polished living room with clean walls, texture feature panel, and refined lighting.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dff9ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#28a9ff"/><stop offset="1" stop-color="#45e3d1"/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="#eef8fb"/>
+  <path d="M0 0 H1200 V566 H0 Z" fill="url(#g)"/>
+  <path d="M90 106 H480 V556 H90 Z" fill="#f8fbff"/>
+  <path d="M526 95 H1088 V556 H526 Z" fill="#eaf0ee"/>
+  <path d="M610 150 H1018 V500 H610 Z" fill="#d7e2df"/>
+  <path d="M640 178 H988 V470 H640 Z" fill="none" stroke="url(#accent)" stroke-width="12"/>
+  <path d="M0 556 H1200 V760 H0 Z" fill="#d8c7af"/>
+  <path d="M170 492 H760 Q810 492 826 542 L870 675 H120 Q146 548 170 492 Z" fill="#102044"/>
+  <path d="M218 456 H712 Q747 456 760 492 H170 Q180 456 218 456 Z" fill="#28a9ff"/>
+  <circle cx="220" cy="206" r="42" fill="#9ef76b"/>
+  <path d="M112 620 H1078" stroke="#ffffff" stroke-width="6" opacity=".36"/>
+</svg>

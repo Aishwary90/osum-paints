@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Terrace waterproofing project</title>
+  <desc id="desc">A terrace surface protected with a clean waterproofing membrane.</desc>
+  <defs><linearGradient id="floor" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eaffff"/><stop offset="1" stop-color="#b4f3ea"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="#d8f5ff"/>
+  <path d="M0 0 H1200 V350 H0 Z" fill="#f8fcff"/>
+  <path d="M0 350 L1200 254 V760 H0 Z" fill="url(#floor)"/>
+  <path d="M110 362 L1040 292 L1040 384 L110 466 Z" fill="#071229" opacity=".16"/>
+  <path d="M180 432 L1010 364" stroke="#28a9ff" stroke-width="34" stroke-linecap="round"/>
+  <path d="M252 510 L1085 430" stroke="#45e3d1" stroke-width="34" stroke-linecap="round"/>
+  <path d="M110 588 L926 506" stroke="#9ef76b" stroke-width="34" stroke-linecap="round"/>
+  <path d="M0 350 L1200 254" stroke="#071229" stroke-width="12" opacity=".22"/>
+  <path d="M178 140 H1024 V254 H178 Z" fill="#ffffff"/>
+  <path d="M216 176 H510" stroke="#071229" stroke-width="20" stroke-linecap="round"/>
+  <path d="M216 216 H410" stroke="#28a9ff" stroke-width="16" stroke-linecap="round"/>
+</svg>
