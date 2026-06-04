@@ -34,8 +34,8 @@ body::before {
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(115deg, rgba(40, 169, 255, .09) 0 18%, transparent 18% 42%, rgba(69, 227, 209, .08) 42% 57%, transparent 57%),
-    repeating-linear-gradient(90deg, rgba(7,18,41,.025) 0 1px, transparent 1px 76px),
+    linear-gradient(115deg, rgba(40, 169, 255, .09) 0%, rgba(40, 169, 255, .09) 18%, transparent 18%, transparent 42%, rgba(69, 227, 209, .08) 42%, rgba(69, 227, 209, .08) 57%, transparent 57%),
+    repeating-linear-gradient(90deg, rgba(7,18,41,.025) 0px, rgba(7,18,41,.025) 1px, transparent 1px, transparent 76px),
     linear-gradient(180deg, #ffffff, #f7fcff 46%, #ffffff);
 }
 
@@ -338,7 +338,7 @@ h3 { font-size: 1.25rem; }
   overflow: hidden;
   background:
     linear-gradient(118deg, rgba(255,255,255,.96), rgba(237,250,255,.94) 52%, rgba(248,255,242,.92)),
-    repeating-linear-gradient(90deg, rgba(7,18,41,.04) 0 1px, transparent 1px 80px);
+    repeating-linear-gradient(90deg, rgba(7,18,41,.04) 0px, rgba(7,18,41,.04) 1px, transparent 1px, transparent 80px);
 }
 .hero::before {
   content: var(--hero-word);
@@ -527,7 +527,7 @@ h3 { font-size: 1.25rem; }
   --hero-word-top: 14%;
   min-height: calc(100svh - 88px);
   background:
-    linear-gradient(105deg, rgba(7,18,41,.96) 0 43%, rgba(8,35,62,.9) 43% 58%, rgba(248,255,252,.92) 58%),
+    linear-gradient(105deg, rgba(7,18,41,.96) 0%, rgba(7,18,41,.96) 43%, rgba(8,35,62,.9) 43%, rgba(8,35,62,.9) 58%, rgba(248,255,252,.92) 58%),
     url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=82") center/cover;
 }
 
@@ -1090,8 +1090,7 @@ h3 { font-size: 1.25rem; }
   position: relative;
   overflow: hidden;
 }
-.service-card::after {
-  content: "\2192";
+.service-card .service-btn {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -1110,7 +1109,7 @@ h3 { font-size: 1.25rem; }
   opacity: .9;
   z-index: 2;
 }
-.service-card:hover::after {
+.service-card:hover .service-btn {
   transform: translateX(4px);
   background: linear-gradient(135deg, var(--lime), var(--aqua));
   color: var(--navy);
@@ -1823,8 +1822,34 @@ a.contact-item:hover .service-icon svg {
   background: #25d366;
   color: var(--white);
   box-shadow: 0 16px 34px rgba(7, 18, 41, .24);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .whatsapp-float svg { width: 28px; height: 28px; }
+.whatsapp-float:hover {
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 20px 38px rgba(7, 18, 41, .32);
+}
+
+.call-float {
+  position: fixed;
+  right: 18px;
+  bottom: 86px;
+  z-index: 60;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--blue), #0066cc);
+  color: var(--white);
+  box-shadow: 0 16px 34px rgba(7, 18, 41, .24);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.call-float svg { width: 26px; height: 26px; }
+.call-float:hover {
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 20px 38px rgba(7, 18, 41, .32);
+}
 
 body.js-ready .reveal {
   opacity: 1;
@@ -2214,7 +2239,7 @@ body.js-ready .reveal.is-visible {
 /* Page-specific hero personalities */
 .home-hero {
   background:
-    linear-gradient(105deg, rgba(7,18,41,.96) 0 43%, rgba(8,35,62,.9) 43% 58%, rgba(248,255,252,.92) 58%),
+    linear-gradient(105deg, rgba(7,18,41,.96) 0%, rgba(7,18,41,.96) 43%, rgba(8,35,62,.9) 43%, rgba(8,35,62,.9) 58%, rgba(248,255,252,.92) 58%),
     url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=82") center/cover;
 }
 
@@ -2225,7 +2250,7 @@ body.js-ready .reveal.is-visible {
 .services-hero {
   background:
     linear-gradient(135deg, rgba(245,250,255,.98) 0%, rgba(240,227,255,.94) 56%, rgba(235,255,248,.92) 100%),
-    repeating-linear-gradient(120deg, rgba(40,169,255,.08) 0 1px, transparent 1px 74px);
+    repeating-linear-gradient(120deg, rgba(40,169,255,.08) 0px, rgba(40,169,255,.08) 1px, transparent 1px, transparent 74px);
 }
 
 .services-hero .gradient-orb {
@@ -2261,7 +2286,7 @@ body.js-ready .reveal.is-visible {
 .contact-hero {
   background:
     linear-gradient(135deg, rgba(245,250,255,.98), rgba(232,245,233,.92) 50%, rgba(238,245,255,.96)),
-    repeating-linear-gradient(0deg, rgba(7,18,41,.04) 0 1px, transparent 1px 70px);
+    repeating-linear-gradient(0deg, rgba(7,18,41,.04) 0px, rgba(7,18,41,.04) 1px, transparent 1px, transparent 70px);
 }
 
 .contact-hero .hero-highlight {
@@ -3434,6 +3459,11 @@ body.js-ready .reveal.is-visible {
     right: 14px;
     bottom: 14px;
   }
+
+  .call-float {
+    right: 14px;
+    bottom: 82px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -3685,7 +3715,7 @@ body.js-ready .reveal.is-visible {
     padding: 18px;
   }
 
-  .service-card::after {
+  .service-card .service-btn {
     right: 16px !important;
     bottom: 16px !important;
     width: 28px !important;
@@ -3854,7 +3884,7 @@ body.js-ready .reveal.is-visible {
     line-height: 1;
   }
 
-  .service-card::after {
+  .service-card .service-btn {
     right: 16px !important;
     bottom: 16px !important;
     width: 28px !important;
